@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamA(scoreTeamA);
         displayForTeamB(scoreTeamB);
     }
+    //displays score
     public void displayForTeamA(int score){
         TextView scoreView=(TextView) findViewById(R.id.team_a_score);
         scoreView.setText(""+score);
